@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         text-decoration: none;
+        border: none;
 
         font-family: 'Commissioner', sans-serif;
         font-size: 62.5%;
@@ -21,6 +22,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        margin: 0;
+        background-color: #FAFAFA;
         font-size: 1.6rem;
     }
 `
