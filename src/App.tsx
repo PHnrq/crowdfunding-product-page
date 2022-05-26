@@ -1,6 +1,7 @@
 import { AboutSection } from "./components/AboutSection";
 import { CtaCard } from "./components/CtaCard";
 import { Header } from "./components/Header";
+import { SalesInfo } from "./components/SalesInfo";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -10,6 +11,7 @@ export function App() {
       <Header />
       <main>
         <CtaCard />
+        <SalesInfo />
         <AboutSection />
       </main>
     </>
