@@ -1,3 +1,4 @@
+import { AboutSection } from "./components/AboutSection";
 import { CtaCard } from "./components/CtaCard";
 import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
@@ -7,7 +8,10 @@ export function App() {
     <>
       <GlobalStyle />
       <Header />
-      <CtaCard />
+      <main>
+        <CtaCard />
+        <AboutSection />
+      </main>
     </>
   );
 }
