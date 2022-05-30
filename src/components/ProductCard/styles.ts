@@ -46,6 +46,13 @@ export const Container = styled.div`
         font-size: 1.4rem;
         font-weight: 700;
         color: #FFFFFF;
+
+        transition: background-color .2s ease-in-out;
+
+        &:hover{
+            background-color: var(--dark-cyan);
+            cursor: pointer;
+        }
     }
 `;
 

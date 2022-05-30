@@ -56,11 +56,25 @@ export const Container = styled.section`
             font-size: 1.6rem;
             font-weight: 700;
             color: #FFFFFF;
+
+            transition: background-color .2s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                background-color: var(--dark-cyan);
+            }
         }
 
         img{
             width: 5.6rem;
             height: 5.6rem;
+
+            transition: opacity .2s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                opacity: 0.8;
+            }
         }
     }
 

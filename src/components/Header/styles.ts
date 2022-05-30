@@ -3,7 +3,6 @@ import styled from "styled-components";
 import backgroundImg from "../../assets/images/image-hero-mobile.jpg";
 
 export const Container = styled.header`
-    width: 100vw;
     height: 300px;
 
     background-image: url(${backgroundImg});
